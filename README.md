@@ -15,7 +15,7 @@ A Spring Boot API that classifies numbers and provides interesting mathematical 
 ```math_api/
 ├── src/
 │ ├── main/
-│ │ ├── java/com/muadmaalim/math_api/
+│ │ ├── java/com/example/math_api/
 │ │ │ ├── ApiResponse.java
 │ │ │ ├── CorsConfig.java
 │ │ │ ├── ErrorResponse.java
@@ -27,7 +27,7 @@ A Spring Boot API that classifies numbers and provides interesting mathematical 
 │ │ └── static/
 │ │ └── templates/
 │ └── test/
-│ └── java/com/muadmaalim/math_api/
+│ └── java/com/example/math_api/
 │ └── MathApiApplicationTests.java
 ├── pom.xml
 └── README.md
