@@ -45,7 +45,7 @@ A Spring Boot API that classifies numbers and provides interesting mathematical 
      - **Project**: Maven
      - **Language**: Java
      - **Spring Boot**: 3.4.2
-     - **Group**: `com.muadmaalim`
+     - **Group**: `com.example`
      - **Artifact**: `math_api`
      - **Description**: Demo Project for Spring Boot
      - **Package Name**: `com.yourDomainName.math_api`
@@ -60,7 +60,7 @@ A Spring Boot API that classifies numbers and provides interesting mathematical 
    - Navigate to the extracted folder and open it.
 
 4. **Create the Required Java Files**:
-   - Inside `src/main/java/com/muadmaalim/math_api`, create the following files:
+   - Inside `src/main/java/com/example/math_api`, create the following files:
      - `ApiResponse.java`
      - `CorsConfig.java`
      - `ErrorResponse.java`
@@ -71,7 +71,7 @@ A Spring Boot API that classifies numbers and provides interesting mathematical 
 
 `ApiResponse.java`code: 
 ```
-package com.muadmaalim.math_api;
+package com.example.math_api;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -107,7 +107,7 @@ public class CorsConfig implements WebMvcConfigurer {
 
 `ErrorResponse.java` code:
 ```
-package com.muadmaalim.math_api;
+package com.example.math_api;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -123,7 +123,7 @@ public class ErrorResponse {
 
 `NumberController.java` code:
 ```
-package com.muadmaalim.math_api;
+package com.example.math_api;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -161,7 +161,7 @@ public class NumberController {
 
 `NumberService.java` code:
 ```
-package com.muadmaalim.math_api;
+package com.example.math_api;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -229,7 +229,7 @@ public class NumberService {
 ```
 `MathApiApplication` code:
 ```
-package com.muadmaalim.math_api;
+package com.example.math_api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
