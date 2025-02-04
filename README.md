@@ -369,15 +369,15 @@ Test the Domain :
 ```
 curl http://example.com:8080/api/number?=371
 ```
-10. **Remove `:8080` Using NGINX Reverse Proxy **:
+10. **Remove :8080 Using NGINX Reverse Proxy**:
 
-2 Install Nginx
+1 Install Nginx
 ```
 sudo apt update
 sudo apt install nginx -y
 ```
 
-3 Edit Nginx Configuration
+2 Edit Nginx Configuration
 ```
 sudo nano /etc/nginx/sites-available/default
 ```
@@ -396,7 +396,7 @@ server {
 }
 ```
 
-4 Restart Nginx 
+3 Restart Nginx 
 ```
 sudo systemctl restart nginx
 ```
